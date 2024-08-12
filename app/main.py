@@ -3,7 +3,6 @@ from pydantic import BaseModel
 from app.model.model import mlflow_predict
 # from app.model.model import __version__ as model_version
 
-
 app = FastAPI()
 
 class TextIn(BaseModel):
